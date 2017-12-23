@@ -5,9 +5,9 @@ import { Component } from '@angular/core';
   selector: 'sd-rating',
   template: `
     <div>
-      <div></div>
+      <div [routerLink]=""></div>
       <div></div>
     </div>
   `
 })
-export class RatingComponent { }
+export class RatingComponent {}

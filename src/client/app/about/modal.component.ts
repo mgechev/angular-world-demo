@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   template: `
     <div>
       <header>
-        <span>Title</span>
+        <span [routerLink]="">Title</span>
         <span>X</span>
       </header>
       <section>Random content</section>
